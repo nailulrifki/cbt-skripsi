@@ -1,0 +1,14 @@
+### Login
+POST http://localhost:3000/api/auth/admin
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "00000000"
+}
+
+### refresh login
+GET http://localhost:3660/auth/token
+
+### Reset login
+DELETE http://localhost:3660/auth/
